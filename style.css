@@ -1,0 +1,88 @@
+body {
+    background-color: #9bfeff;
+}
+footer {
+    margin-top: 170px;
+    background-color: white;
+    padding:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: beige;
+}
+button {
+    border-radius: 5px;
+    background-color: #3c8fcf;
+    border-color: #3c8fcf;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: 900;
+    color: darkred;
+}
+
+h2 {
+    color: purple;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.centered {
+    text-align: center;
+}
+.emph {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#smiley {
+    height:100px;
+    display: block;
+    margin: auto;
+}
+
+img.fruit1 {
+    height: 400px;
+    display: inline;
+    width: 400px;
+    margin: 7px;
+}
+img.continents {
+    height: 300px;
+    width: 300px;
+    filter: blur(20px);
+    transition: height 0.2s, width 0.2s, filter 0.2s;
+}
+
+img.continents:hover {
+    height: 400px;
+    width: 400px;
+    filter: blur(0px);
+}
+
+p.text {
+    background-color: black;
+    display: inline;
+    position: relative;
+    right: 250px;
+    top: 20px;
+    transition: color 0.3;
+    
+}
+
+p.text:hover {
+    color: white;
+}
